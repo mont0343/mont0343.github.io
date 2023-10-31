@@ -1,0 +1,129 @@
+html{
+  box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: #aad4cf;
+}
+
+.wrapper{
+    background-color: #D4E9E7;
+    width: 800px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+
+/*--------------- HEADER ----------------*/
+h1{
+    color:white;
+    font-weight: 400;
+    font-size: 40px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top:135px;
+}
+
+header{
+    height: 240px;
+}
+
+header img{
+    position: relative;
+    top: -100px;
+    right: 10px;
+    width: 820px;
+}
+/*---------------------------------------*/
+
+
+
+
+/*----------------- NAV -----------------*/
+nav li{
+    font-size: 18px;
+    text-align: center;
+    width: 32%;
+    height: 25px;
+    display: inline-block;
+}
+
+nav ul{
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+nav li:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active{
+    color: black;
+    font-weight: bold;
+}
+/*---------------------------------------*/
+
+
+
+
+/*--------------- FORM -----------------*/
+form{
+    padding: 20px 10px;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+#fname, #email, #message{
+    resize: none;
+    width: 760px;
+}
+
+form h3{
+    font-weight: normal;
+}
+
+form button{
+    margin-top: 15px;
+    padding: 10px 10px;
+}
+/*----------------------------------------*/
+
+
+
+
+/*--------------- OTHER -----------------*/
+h2{
+    font-weight: normal;
+}
+
+#facts{
+    font-size: 13px;
+    padding: 0px 0px 0px 15px;
+}
+
+.float{
+    width: 190px;
+    height: auto;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+article p{
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+footer{
+    padding: 25px 15px 25px 0px;
+    text-align: right;
+    font-size: 13px;
+}
+/*---------------------------------------*/
