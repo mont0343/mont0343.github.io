@@ -21,8 +21,8 @@
         </nav>
         
         <form>
-            <label for="searchbar">Search:</label>
-            <input id="searchbar" type="text">
+            <label for="searchbar"></label>
+            <input id="searchbar" type="search" placeholder="Search">
         </form>
     </header>
     
@@ -30,7 +30,7 @@
         <div class="title-container">
             <h1>Welcome to Three Star Media</h1>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste mollitia delectus, assumenda illo, saepe impedit facilis molestias animi ullam maxime eos aperiam voluptate consequatur nisi deserunt veritatis iure sit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat accusantium est aliquid voluptas inventore vitae perferendis et? At mollitia iste expedita officiis?</p>
-            <button type="button">Connect with us</button>
+            <button class="connect-button" type="button">Connect with us</button>
         </div> 
         
         <!-- About Us -->
@@ -41,7 +41,7 @@
             <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab sit distinctio quibusdam animi, laborum amet repudiandae, perferendis veritatis quaerat reprehenderit sapiente officiis quia velit, totam dolore repellendus corrupti aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, debitis commodi dolorum, facilis natus atque, cupiditate explicabo beatae tempora recusandae dolorem eaque quidem dolor ab officiis sequi unde animi.</p>
         </article>
         
-        <!-- Our Services -->
+        <!-- Our Services :: Im not sure if I actually need individual classes for each button since the styling is pretty well the same for all.. may change later-->
         <section class="wrapper">
             <h2 id="services">Our Services</h2>
             <div class="grid-container1">
@@ -49,21 +49,21 @@
                     <img src="images/digital.jpg" alt="man on phone and computer">
                     <h3>Digital Transformation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button type="button">Digital Plans</button>
+                    <button class="digital-button" type="button">Digital Plans</button>
                 </div>
 
                 <div class="market">
                     <img src="images/marketing.jpg" alt="a picture of a laptop">
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button type="button">Marketing Plans</button>
+                    <button class="market-button" type="button">Marketing Plans</button>
                 </div>
 
                 <div class="video">
                     <img src="images/video.jpg" alt="man on phone browsing youtube">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button type="button">Video Plans</button>
+                    <button class="video-button" type="button">Video Plans</button>
                 </div>
 
 
@@ -71,14 +71,14 @@
                     <img src="images/web.jpg" alt="a phone laying on a notebook">
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button type="button">Web Plans</button>
+                    <button class="web-button" type="button">Web Plans</button>
                 </div>
 
                 <div class="print">
                     <img src="images/print.jpg" alt="a picture of newspaper boxes outside">
                     <h3>Print</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button type="button">Print Plans</button>
+                    <button class="print-button" type="button">Print Plans</button>
                 </div>
             </div>
         </section>
@@ -87,7 +87,7 @@
         <section>
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate est rem accusantium soluta consequuntur! Facere perspiciatis, pariatur doloremque asperiores aperiam iusto quos atque culpa unde. Numquam nulla sed sit magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque asperiores velit exercitationem delectus quod expedita dolorem molestias.</p>
-            <button type="button">Learn More</button>
+            <button class="learn-button" type="button">Learn More</button>
         </section>
         
         <!-- Our Team -->
@@ -133,7 +133,7 @@
                 <label for="message"></label>
                 <textarea id="message" name="message" rows="10" cols="60"></textarea>
                 <br>
-                <button type="submit">Send</button>
+                <button class="send-button" type="submit">Send</button>
             </form>
             
             <aside> <!-- Or use grid? Not sure.. -->
@@ -165,7 +165,7 @@
     <footer>
         <hr> <!-- Purely visual, only temporary -->
         &copy; Copyright Three Star Media, 2020
-        <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+        <p>All images are taken from <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
     </footer>
 </body>
 </html>
