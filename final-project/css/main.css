@@ -11,7 +11,6 @@ html{
 }
 
 .wrapper{
-    /* background-color: aquamarine; */
     width: 83%;
     margin: auto;
     margin-top: 40px;
@@ -33,14 +32,12 @@ h1{
 }
 
 h2{
-    /* background-color: blue; */
     font-size: 3rem;
     font-weight: bold;
     padding-bottom: 30px;
 }
 
 h3{
-    /* background-color: brown; */
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 30px;
@@ -310,7 +307,6 @@ a:hover{
     padding-left: 10px;
 }
 
-
 /*********************************************/
 /* OUR VISION */
 
@@ -341,7 +337,6 @@ a:hover{
     margin-left: 100px;
     border: 1px solid goldenrod;
  }
-
 
 /*********************************************/
 /* OUR TEAM */
@@ -526,7 +521,6 @@ h1{
 }
 
 h2{
-    /* background-color: blue; */
     font-size: 3rem;
     font-weight: bold;
     padding-bottom: 30px;
@@ -534,7 +528,6 @@ h2{
 }
 
 h3{
-    /* background-color: brown; */
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 30px;
@@ -642,6 +635,7 @@ h4{
         margin:10px 10px 10px 10px;
         border: none;
      }
+
     /*********************************************/
     /* ABOUT US */
     
@@ -812,7 +806,6 @@ h4{
         padding-left: 10px;
     }
     
-    
     /*********************************************/
     /* OUR VISION */
     
@@ -843,8 +836,7 @@ h4{
         margin-bottom: 15px;
         margin-left: 20px;
         border: 1px solid goldenrod;
-     }
-    
+    }
     
     /*********************************************/
     /* OUR TEAM */
@@ -982,7 +974,7 @@ h4{
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 10px;
-      }
+    }
     
     .send-button{
         font-size: 1.5rem;
@@ -1019,4 +1011,4 @@ h4{
     footer a{
         color:#c78c06
     }
-    }
+}
