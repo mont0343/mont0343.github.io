@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- Im sure you won't care about the warning im getting here, but its saying its unsure of the language because of so much lorem ipsum. So it is recommending 'zxx'-->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mont0343 - final project</title>
-    <!-- <link href="css/reset.css" rel="stylesheet"> -->
-    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <!-- Open Sans Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" /> <!-- Material Symbols -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <script>
+        window.alert("TO VIEW MOBILE VERSION: Please snap the window to the side of your screen and bring down the width of the window until you see it!")
+    </script>
 </head>
 <body>
     <header>
@@ -16,54 +24,85 @@
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contactus">Contact</a></li>
+                <li>
+                    <form>
+                        <label for="searchbar"></label>
+                        <input id="searchbar" type="search" placeholder="Search">
+                        <button class="search-button" type="button">
+                            <span class="material-symbols-outlined">search</span>
+                        </button>
+                    </form>
+                </li>
             </ul>
         </nav>
         
-        <form>
-            <label for="searchbar"></label>
-            <input id="searchbar" type="search" placeholder="Search">
-        </form>
+        
     </header>
     
     <main> <!-- Content relevant only to this page begins -->
+        <img src="images/main-banner.jpg" alt="pic" class="title-img">
         <div class="title-container">
-            <h1>Welcome to Three Star Media</h1>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste mollitia delectus, assumenda illo, saepe impedit facilis molestias animi ullam maxime eos aperiam voluptate consequatur nisi deserunt veritatis iure sit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat accusantium est aliquid voluptas inventore vitae perferendis et? At mollitia iste expedita officiis?</p>
-            <button class="connect-button" type="button">Connect with us</button>
+            <h1>Welcome to Three Star <br>Media</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste mollitia delectus, assumenda illo, saepe impedit facilis molestias animi ullam maxime eos aperiam voluptate consequatur nisi deserunt veritatis iure sit quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="connect-button" type="button">
+                Connect with us
+                <span class="material-symbols-outlined">
+                    play_arrow
+                </span>
+            </button>
         </div> 
         
         <!-- About Us -->
-        <article class="about-container">
-            <img src="images/about-us.jpg" alt="a picture of our studio"> <!-- Use float clearfix to allow text to be beside the picture?? -->
-            <h2 id="about">About Us</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsam exercitationem quia, quidem repudiandae dignissimos hic quisquam repellat aliquid velit nemo tenetur voluptatem. Sint animi nulla iure iste recusandae ullam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nam eaque dolore architecto nesciunt eligendi delectus, similique repudiandae pariatur.</p>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab sit distinctio quibusdam animi, laborum amet repudiandae, perferendis veritatis quaerat reprehenderit sapiente officiis quia velit, totam dolore repellendus corrupti aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, debitis commodi dolorum, facilis natus atque, cupiditate explicabo beatae tempora recusandae dolorem eaque quidem dolor ab officiis sequi unde animi.</p>
-        </article>
+        <div class="about-container">
+            <img src="images/about-us.jpg" alt="a picture of our studio" id="aboutuspic">
+            <div class="float">
+                <h2 id="about">About Us</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsam exercitationem quia, quidem repudiandae dignissimos hic quisquam repellat aliquid velit nemo tenetur voluptatem. Sint animi nulla iure iste recusandae ullam?<br><br>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, debitis commodi dolorum, facilis natus atque, cupiditate explicabo beatae tempora recusandae dolorem eaque quidem dolor ab officiis.
+                 </p>
+            </div>
+        </div>
         
         <!-- Our Services :: Im not sure if I actually need individual classes for each button since the styling is pretty well the same for all.. may change later-->
         <section class="wrapper">
             <h2 id="services">Our Services</h2>
-            <div class="grid-container1">
+            <div class="grid-container2">
                 <div class="digital">
                     <img src="images/digital.jpg" alt="man on phone and computer">
                     <h3>Digital Transformation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button class="digital-button" type="button">Digital Plans</button>
+                    <button class="digital-button" type="button">
+                        Digital Plans
+                        <span class="material-symbols-outlined">
+                            play_arrow
+                        </span>
+                    </button>
                 </div>
 
                 <div class="market">
                     <img src="images/marketing.jpg" alt="a picture of a laptop">
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button class="market-button" type="button">Marketing Plans</button>
+                    <button class="market-button" type="button">
+                        Marketing Plans
+                        <span class="material-symbols-outlined">
+                            play_arrow
+                        </span>
+                    </button>
                 </div>
-
+            </div>
+            <div class="grid-container3">
                 <div class="video">
                     <img src="images/video.jpg" alt="man on phone browsing youtube">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button class="video-button" type="button">Video Plans</button>
+                    <button class="video-button" type="button">
+                        Video Plans
+                        <span class="material-symbols-outlined">
+                            play_arrow
+                        </span>
+                    </button>
                 </div>
 
 
@@ -71,37 +110,52 @@
                     <img src="images/web.jpg" alt="a phone laying on a notebook">
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button class="web-button" type="button">Web Plans</button>
+                    <button class="web-button" type="button">
+                        Web Plans
+                        <span class="material-symbols-outlined">
+                            play_arrow
+                        </span>
+                    </button>
                 </div>
 
                 <div class="print">
                     <img src="images/print.jpg" alt="a picture of newspaper boxes outside">
                     <h3>Print</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur recusandae magni quas asperiores! </p>
-                    <button class="print-button" type="button">Print Plans</button>
+                    <button class="print-button" type="button">
+                        Print Plans
+                        <span class="material-symbols-outlined">
+                            play_arrow
+                        </span>
+                    </button>
                 </div>
             </div>
         </section>
         
         <!-- Our Vision -->
-        <section>
+        <section class="vision">
             <h3>Our Vision</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate est rem accusantium soluta consequuntur! Facere perspiciatis, pariatur doloremque asperiores aperiam iusto quos atque culpa unde. Numquam nulla sed sit magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque asperiores velit exercitationem delectus quod expedita dolorem molestias.</p>
-            <button class="learn-button" type="button">Learn More</button>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate est rem accusantium soluta consequuntur! Facere perspiciatis,<br> pariatur doloremque asperiores aperiam iusto quos atque culpa unde. Numquam nulla sed sit magnam. Lorem ipsum, dolor sit amet<br> consectetur adipisicing elit.</p>
+            <button class="learn-button" type="button">
+                Learn More
+                <span class="material-symbols-outlined">
+                    play_arrow
+                </span>
+            </button>
+            
         </section>
         
         <!-- Our Team -->
         <section class="wrapper">
             <h2 id="team">Our Team</h2>
-            <div class="grid-container2">
+            <div class="grid-container4">
                 
                 <div class="john">
                     <img src="images/john.jpg" alt="The CEO of the company">
                 </div>
-                <div class="john-info">
+                <div class=" john-info">
                     <h3>John Doe</h3>
                     <h4>CEO and Co-owner</h4>
-                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quisquam culpa, rerum animi nisi facilis? Placeat labore, distinctio ipsa repellendus temporibus aspernatur a? Repellat mollitia porro vel deserunt, adipisci impedit!</p>
                 </div>
                 
@@ -112,35 +166,34 @@
                 <div class="bob-info">
                     <h3>Bob Rite</h3>
                     <h4>CFO and Co-owner</h4>
-                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed rerum ipsam nemo cumque hic aspernatur iure totam fuga, illum in maxime incidunt ducimus porro quos, est, a aut molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores possimus quas delectus, dolores reprehenderit modi, impedit temporibus perferendis ex incidunt neque eaque molestias maxime rerum culpa nemo! Nemo, in totam.</p>
                 </div>
             </div>
          
             <!-- Contact Us -->
-            <h2 id="contact">Contact Us</h2>
-            <h3>Send us a message</h3>
-            <form>
-                <p>Full Name</p>
-                <label for="fname"></label>
-                <input id="fname" type="text" name="fname">
+            <h2 id="contactus">Contact Us</h2>
+            <div class="grid-container5">
+                <form id="contact">
+                    <h3>Send us a message</h3>
+                    <p>Full Name</p>
+                    <label for="fname"></label>
+                    <input id="fname" type="text" name="fname">
     
-                <p>Email</p>
-                <label for="email"></label>
-                <input id="email" type="text" name="email">
+                    <p>Email</p>
+                    <label for="email"></label>
+                    <input id="email" type="text" name="email">
     
-                <p>Message</p>
-                <label for="message"></label>
-                <textarea id="message" name="message" rows="10" cols="60"></textarea>
-                <br>
-                <button class="send-button" type="submit">Send</button>
-            </form>
+                    <p>Message</p>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" rows="10" cols="60"></textarea>
+                    <button class="send-button" type="submit">Send</button>
+                </form>
             
-            <aside> <!-- Or use grid? Not sure.. -->
-                <h3>Location</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6669.0200814756745!2d-75.75910524139785!3d45.349265651045876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701376297310!5m2!1sen!2sca" width="600" height="450"></iframe>
-            </aside>
-        
+                <aside> <!-- Or use grid? Not sure.. -->
+                    <h3>Location</h3>
+                    <iframe id=iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6669.0200814756745!2d-75.75910524139785!3d45.349265651045876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701376297310!5m2!1sen!2sca" width="600" height="450"></iframe>
+                </aside>
+            </div>
             <h3>Hours of operation</h3>
             <table>
                 <thead>
@@ -163,8 +216,7 @@
         </section>
     </main> <!-- Content relevant only to this page ends -->
     <footer>
-        <hr> <!-- Purely visual, only temporary -->
-        &copy; Copyright Three Star Media, 2020
+        <p>&copy; Copyright Three Star Media, 2020</p><br>
         <p>All images are taken from <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
     </footer>
 </body>
