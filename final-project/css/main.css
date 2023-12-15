@@ -79,6 +79,9 @@ header img{
     border: 1px solid #c78c06;
     padding-top: 5px;
     padding-bottom: 5px;
+    position: relative;
+    right: 5px;
+    bottom: -6px;
 }
 
 /* NAV */
@@ -570,6 +573,9 @@ h4{
         border: 1px solid #c78c06;
         padding-top: 5px;
         padding-bottom: 5px;
+        position: relative;
+        right: 5px;
+        bottom: -5px;
     }
     
     /* NAV */
